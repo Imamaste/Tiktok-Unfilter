@@ -1,4 +1,5 @@
 import os
+import pyscolortype
 import random
 import requests
 import threading
